@@ -15,3 +15,39 @@ html,body{
   height: 350px;
   background: burlywood;
 }
+
+.border-white{
+ border: 1px solid white;
+}
+
+.block{
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+
+.block-red{
+  background: red;
+}
+
+.tube{
+  min-height: 120px;
+  width: fit-content;
+  padding: 5px;
+  border: 3px solid #37474f;
+  display: flex;
+  gap: 5px;
+  border-top: none;
+  flex-direction: column;
+  border-radius: 0 0 10px 10px;
+}
+
+.game-area{
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background: #588157;
+  border-radius: 15px;
+  width: fit-content;
+}
